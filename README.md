@@ -1,1 +1,1 @@
-# Perosnal Research Audio&Music Manager
+# Perosnal Research - Audio and Music Manager
