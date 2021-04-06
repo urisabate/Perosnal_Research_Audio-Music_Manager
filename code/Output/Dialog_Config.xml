@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<!-- Settup Dialog for the game -->
+<DialogSettup>
+ <!-- <SetUp>             -->
+<!--   <NodePlacing>     -->
+<!--                     -->
+<!--   </NodePlacing>    -->
+<!--   <OptionPlacing>   -->
+<!--                     -->
+<!--   </OptionPlacing>  -->
+ <!-- </SetUp>            -->
+  <Dialogs>
+    <Dialog ID="1">
+      <Node ID="0">
+        <NPCTalk>This is just a dummy dialogue</NPCTalk>
+        <Option NextNode="1" ReturnCode="1">For what?</Option>
+        <Option NextNode="2" ReturnCode="1">Shut up!</Option><!--When a node returns -1 the dialog will finish-->
+      </Node>
+      <Node ID="1">
+        <NPCTalk>For testing purposes</NPCTalk>
+        <Option NextNode="3" ReturnCode="1">And why are you doing this?</Option>
+        <Option NextNode="4" ReturnCode="1">Right, that's cool</Option>
+      </Node>
+      <Node ID="2">
+        <NPCTalk>Ok. Dw</NPCTalk>
+      </Node>
+      <Node ID="3">
+        <NPCTalk>For my project</NPCTalk>
+      </Node>
+      <Node ID="4">
+        <NPCTalk>Nice!</NPCTalk>
+      </Node>
+    </Dialog>                                       
+  </Dialogs>
+</DialogSettup>
